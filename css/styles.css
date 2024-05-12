@@ -105,64 +105,96 @@ Header
   .btn-burger {
     display: none;
   }
+  .page-navigation {
+    display: flex;
+    align-items: center;
+  }
+  
+  .page-logo {
+    margin-right: 120px;
+    padding: 24px 0;
+  }
+  
+  .navigation-list {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .navigation-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: block;
+    padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .navigation-link:hover,
+  .navigation-link:focus {
+      color: #404bbf;
+  }
+  
+  .current {
+    position: relative;
+    color: #404bbf;
+  }
+  
+  .current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    height: 4px;
+    width: 100%;
+  }
+  
+  .header-contacts {
+    display: block;
+    font-style: normal;
+  }
+  
+  .contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .contacts-link {
+    display: block;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .contacts-link:hover,
+  .contacts-link:focus {
+    color: #404bbf;
+  }
 }
-.page-navigation {
-  display: flex;
-  align-items: center;
+
+
+@media screen and (min-width: 1158px) {
+  .page-logo {
+      margin-right: 76px;
+  }
+  .contacts-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+  .contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
 }
-.page-logo {
-  margin-right: 120px;
-  padding: 24px 0;
-}
-.navigation-list {
-  display: flex;
-  gap: 40px;
-}
-.navigation-link {
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  display: block;
-  padding: 24px 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.navigation-link:hover,
-.navigation-link:focus {
-  color: #404bbf;
-}
-.current {
-  position: relative;
-  color: #404bbf;
-}
-.current::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  background-color: #404bbf;
-  border-radius: 2px;
-  height: 4px;
-  width: 100%;
-}
-.header-contacts {
-  display: block;
-  font-style: normal;
-}
-.contacts-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-.contacts-link {
-  display: block;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: #434455;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contacts-link:hover,
-.contacts-link:focus {
-  color: #404bbf;
-}
+
+/* ========================================================================================================================================================
+Hero
+======================================================================================================================================================== */
+
