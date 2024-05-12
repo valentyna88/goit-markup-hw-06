@@ -38,11 +38,6 @@ button {
   align-items: center;
 }
 
-
-.contacts-list {
-  display: flex;
-  gap: 40px;
-}
 .contacts-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
