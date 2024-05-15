@@ -64,6 +64,9 @@ Header
 .page-header-list {
   display: none;
 }
+.contacts-list {
+  display: none;
+}
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -142,6 +145,19 @@ Header
     border: none;
     background-color: transparent;
     padding: 0;
+  }
+  .mobile-menu-nav {
+    margin-bottom: auto;
+  }
+  .mobile-menu-list-link {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  .mobile-menu-list-item:not(:last-child) {
+    margin-bottom: 40px;
   }
 }
 
@@ -244,11 +260,6 @@ Header
   }
 }
 
-/* ========================================================================================================================================================
-Mobile Menu
-======================================================================================================================================================== */
 
-
-  
 
 
