@@ -178,6 +178,10 @@ Mobile menu
     height: 4px;
     width: 100%;
   }
+  .mobile-menu-contacts {
+    margin-bottom: 48px;
+    margin-top: 168px;
+  }
   .mobile-menu-contacts-list {
     display: flex;
     flex-direction: column;
