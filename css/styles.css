@@ -43,6 +43,9 @@ common
   padding: 0 16px;
   margin: 0 auto;
 }
+.section-paddings {
+  padding: 96px 0;
+}
 
 @media screen and (min-width: 768px) {
   .container {
@@ -332,7 +335,82 @@ Mobile menu
 Hero
 ======================================================================================================================================================== */
 
+.hero {
+  background-color: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+    url(../images/hero/hero-mob-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 72px 0;
+}
+.hero-title {
+  display: block;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+  max-width: 216px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-button {
+  min-width: 169px;
+  height: 56px;
+  padding: 16px 32px;
+  font-family: inherit;
+  background-color: #4d5ae5;
+  display: block;
+  margin: 0 auto;
+  margin-top: 72px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-button:focus {
+  background-color: #404bbf;
+}
 
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-mob@2x-min.jpg);
+  }
+}
 
+@media screen and (min-width: 768px) {
+.hero {
+  padding: 112px 0;
+  max-width: 768px;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-tab-min.jpg);
+}
+}
 
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-tab@2x-min.jpg);
+  }
+}
 
+@media screen and (min-width: 1158px) {
+  .hero {
+    padding: 188px 0;
+    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-desk-min.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-desk@2x-min.jpg);
+  }
+}
