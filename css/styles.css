@@ -159,6 +159,21 @@ Header
   .mobile-menu-list-item:not(:last-child) {
     margin-bottom: 40px;
   }
+  .current {
+    position: relative;
+    color: #404bbf;
+  }
+  
+  .current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    height: 4px;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
