@@ -388,11 +388,19 @@ Hero
 }
 
 @media screen and (min-width: 768px) {
-.hero {
-  padding: 112px 0;
-  max-width: 768px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-tab-min.jpg);
-}
+  .hero {
+    padding: 112px 0;
+    max-width: 768px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-tab-min.jpg);
+  }
+  .hero-button {
+    margin-top: 36px;
+  }
+  .hero-title {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
 }
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
@@ -407,10 +415,18 @@ Hero
     max-width: 1440px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-desk-min.jpg);
   }
+    .hero-button {
+      margin-top: 48px;
+    }
 }
 
-@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
   .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-desk@2x-min.jpg);
   }
 }
+
+/* ========================================================================================================================================================
+Benefits
+======================================================================================================================================================== */
+
