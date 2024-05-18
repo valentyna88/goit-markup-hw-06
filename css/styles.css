@@ -695,8 +695,7 @@ Footer
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
-  justify-content: center;
+  display: inline-block;
   margin-bottom: 16px;
 }
 .footer-logo .logo-part {
@@ -716,15 +715,30 @@ Footer
   margin-bottom: 16px;
 }
 @media screen and (max-width: 767px) {
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+  }
   .footer-logo-box {
     margin-bottom: 72px;
+  }
+  .media-text {
+    text-align: center;
   }
 }
 
 @media screen and (min-width: 768px) {
-
+  .page-footer .container {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 @media screen and (min-width: 1158px) {
-
+  .page-footer {
+    padding: 100px 0;
+  }
+  .media-box {
+    margin-right: 80px;
+  }
 }
