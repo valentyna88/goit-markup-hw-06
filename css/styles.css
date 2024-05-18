@@ -1031,6 +1031,8 @@ Backdrop
   color: rgba(46, 47, 66, 0.4);
 }
 .modal-form-checkbox-label {
+  display: flex;
+  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -1045,6 +1047,7 @@ Backdrop
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  flex-shrink: 0;
   width: 16px;
   height: 16px;
   margin-right: 8px;
@@ -1083,8 +1086,7 @@ Backdrop
   border-radius: 4px;
   border: none;
   padding: 16px 32px;
-  margin-left: 95px;
-  margin-right: 96px;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
