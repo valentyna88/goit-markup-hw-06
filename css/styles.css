@@ -678,3 +678,53 @@ Portfolio
     width: calc((100% - 48px) / 3);
     }
 }
+
+/* ========================================================================================================================================================
+Footer
+======================================================================================================================================================== */
+
+.page-footer {
+  background-color: #2e2f42;
+  padding: 96px 0;
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 288px;
+}
+.media-text {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+@media screen and (max-width: 767px) {
+  .footer-logo-box {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1158px) {
+
+}
