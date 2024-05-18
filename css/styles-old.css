@@ -61,10 +61,6 @@ button {
 /* ==========FOOTER STYLES========== */
 
 
-.media-box {
-  margin-right: 80px;
-}
-
 .social-list {
   display: flex;
   gap: 16px;
