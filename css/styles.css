@@ -858,6 +858,9 @@ Footer
   .footer-logo-box {
     margin-right: 24px;
   }
+    .footer-text {
+      max-width: 264px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
@@ -868,6 +871,9 @@ Footer
 }
 
 @media screen and (min-width: 1158px) {
+  .footer-subscribe {
+      margin-top: 0px;
+    }
   .page-footer {
     padding: 100px 0;
   }
@@ -1034,7 +1040,6 @@ Backdrop
   align-items: center;
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.04em;
   color: #8e8f99;
 }
 
