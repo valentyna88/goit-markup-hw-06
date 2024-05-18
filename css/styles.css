@@ -508,6 +508,14 @@ Benefits
     margin-bottom: 8px;
     background-color: #f4f4fd;
   }
+  .subtitle-benefits {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .description-benefits {
+    font-weight: 400;
+    font-size: 16px;
+  }
 }
 
 /* ========================================================================================================================================================
@@ -783,6 +791,36 @@ Footer
 input {
   outline: transparent;
 }
+.subscribe-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: #404bbf;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+.subscribe-icon {
+  margin-left: 16px;
+  fill: #f4f4fd;
+}
 
 @media screen and (max-width: 767px) {
   .footer-logo {
@@ -808,6 +846,9 @@ input {
 }
 
 @media screen and (min-width: 768px) {
+  .footer-subscribe {
+      margin-top: 72px;
+    }
   .page-footer .container {
     display: flex;
     align-items: baseline;
