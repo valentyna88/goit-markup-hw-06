@@ -946,7 +946,6 @@ Backdrop
 }
 
 .modal-description {
-  width: 256px;
   margin: 0 auto;
   font-weight: 500;
   line-height: 1.5;
@@ -1097,4 +1096,11 @@ Backdrop
 .modal-form-submit:hover,
 .modal-form-submit:focus {
   background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+    min-height: 584px;
+  }
 }
